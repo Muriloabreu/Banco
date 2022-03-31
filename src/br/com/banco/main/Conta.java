@@ -2,6 +2,7 @@ package br.com.banco.main;
 
 public abstract class Conta implements IConta {
 
+	//Atributos
 	private static final int AGENCIA_PADRAO = 1;
 	private static int SEQUENCIAL = 1;
 
@@ -10,7 +11,7 @@ public abstract class Conta implements IConta {
 	protected double saldo;
 	protected Cliente cliente;
 
-	// construtor
+	// Método construtor
 	public Conta(Cliente cliente) {
 		this.agencia = AGENCIA_PADRAO;
 		this.numero = SEQUENCIAL++; // numero sequencial variavel static

@@ -4,9 +4,11 @@ import java.util.List;
 
 public class Banco {
 	
+	//Atributos
 	private String nome;
 	private List<Conta> contas;
 	
+	//Métodos Acessores
 	public String getNome() {
 		return nome;
 	}

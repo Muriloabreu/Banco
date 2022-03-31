@@ -2,6 +2,7 @@ package br.com.banco.main;
 
 public class ContaCorrente extends Conta {
 	
+	//Métodos
 	public ContaCorrente(Cliente cliente) {
 		super(cliente);
 	}
